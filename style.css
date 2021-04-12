@@ -1,8 +1,24 @@
 @font-face { /*Définition Police*/
     font-family: 'Raleway-Regular';
-    src: url('Raleway-Regular.ttf'); format( 'ttf')
+    src: url('Raleway-Regular.ttf'); format('ttf')
     }
 
 body {
 font-family: 'Raleway-Regular'
 }
+
+.S_inscrire
+{
+    font-weight: bold;
+    text-align: right;
+    color: #0065FC;
+}
+
+.menu
+{
+    clear: both;
+    color:#0065FC;
+}
+ul {
+    list-style-type: none;
+    }

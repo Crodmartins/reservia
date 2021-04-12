@@ -2,27 +2,41 @@
 <html>
   <header>
     <meta charset="utf-8">
-    <link rel="stylesheet" a href="style.css">
-    <img src="images/logo/Reservia@3x.png" alt="Logo">
-    <title>S'inscrire</title>
+    <link rel="stylesheet" href="style.css" />
+    <p><img src="images/logo/Reservia.svg" class="logo" alt="Logo"/><class="S_inscrire"><strong>S'inscrire</strong></p>
+    <title>Reservia</title>
   </header>
  
   <nav> <!--menu du site-->
-      <ul>
-          <li>Hébergements</li>
-          <li>Activités</li>
+    <p>
+      <ul class="menu">
+          <li><a href="#hebergements">Hébergements</a></li>
+          <li><a href="#activites">Activités</a></li>
       </ul>
+    </p>
   </nav>
 
   <body>
     <section> <!--Filtres-->
+       
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <h2>En plein centre ville ou en pleine nature</h2>
+            
+            <div class="filtres">  
+                <h3>Filtres</h3>
+                 <ul>
+                     <li>Economique</li>
+                     <li>Familial</li>
+                     <li>Romantique</li>
+                     <li>Animaux autorisés</li>
+                 </ul>
+            </div>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
     </section>
 
     <section> <!--Hébergements-->
         <div>
-            <h1>Hébergements à Marseille</h1>
+            <h1 id="hebergements">Hébergements à Marseille</h1>
         </div>
         
         <aside>
@@ -31,8 +45,9 @@
     </section>
 
     <section> <!--Activités à Marseille-->
-        <h1>Activités à Marseille</h1>
-
+        <div>
+          <h1 id="activites">Activités à Marseille</h1>
+        </div>
     </section>
   
     <footer> <!--Bas de page-->
