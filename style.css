@@ -1,0 +1,8 @@
+@font-face { /*Définition Police*/
+    font-family: 'Raleway-Regular';
+    src: url('Raleway-Regular.ttf'); format( 'ttf')
+    }
+
+body {
+font-family: 'Raleway-Regular'
+}
