@@ -18,9 +18,19 @@
   <body>
     <section> <!--Filtres-->
        
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p><h1>Trouvez votre hébergement pour des vacances de rêve</h1></p>
             <h2>En plein centre ville ou en pleine nature</h2>
             
+            <section id="lieu"><!--insertion lieu-->
+                <form method="POST" action="traitement.php">
+                <p>
+                    <div class="icone_lieu>"><i class="fas fa-map-marker-alt"></i></div>
+                    <input type="text" name="localisation" id="localisation" placeholder="Marseille, France">
+                    <input type="submit" name="rechercher" id="rechercher" value="Rechercher">
+                </p>
+                </form>
+            </section>
+
             <div class="filtres">  
                 <h3>Filtres</h3>
                  <ul>
