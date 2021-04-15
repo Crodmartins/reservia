@@ -6,21 +6,29 @@
 body {
 font-family: 'Raleway-Regular'
 }
+/*Style Header*/
 
-.S_inscrire
+.logo
 {
-    font-weight: bold;
-    text-align: right;
-    color: #0065FC;
+    float: left;
 }
 
-.menu
+#menu
 {
-    flex-direction: row;
-    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start
+}
+.sinscrire
+{
     color:#0065FC;
-    text-decoration-skip: underline;
+    font-weight: bold;
 }
+
+
+
+
+
 a
 {
     text-decoration: none;
