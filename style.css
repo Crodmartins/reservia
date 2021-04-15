@@ -17,17 +17,33 @@ font-family: 'Raleway-Regular'
 {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: flex-start
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
 }
 .sinscrire
 {
-    color:#0065FC;
-    font-weight: bold;
+   color:#0065FC;
+   font-weight: bold;
+   display: flex;
+   margin: 0em 3em;
+   padding-top: 1em;
 }
 
+.hebergements
+{
+   display: flex;
+   margin: 0em 3em;
+   padding-top: 1em;
+   border-top: solid #0065FC;
+}
 
-
-
+.activites
+{
+   display: flex;
+   margin: 0em 3em;
+   padding-top: 1em;
+}
 
 a
 {
