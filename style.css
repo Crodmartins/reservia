@@ -97,6 +97,7 @@ h1
 {
     font-size: 1.2em;
     font-family: 'Raleway-ExtraBold';
+    display: flex;
     padding: 1em auto 0;
     margin: 1em auto 0.3em;
 }
@@ -123,22 +124,30 @@ ul {
     list-style-type: none;
     }
 
+/*Mise en forme hébergements*/
 #hebergements
 {
     background-color:#e4e0e2;
     border-radius: 10px;
     padding: 10px 10px 10px 10px;
-
+    width: 70%;
 }
 
-.vignette 
+#contenu_vignette_hebergements 
 {
     display: flex;
-    align-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.vignettehebergement 
+{
     background-color: white;
     border-radius: 15px 15px 15px 15px; 
-    width: 20%;
+    width: 30%;
     padding: 5px;
+    margin-bottom: 10px;
 }
 
 .image_vignette
@@ -158,6 +167,42 @@ ul {
 {
     width: 6%;
     color: grey;
+}
+
+/*Mise en forme populaire*/
+#populaire
+{
+    background-color:#e4e0e2;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    width: 30%;
+}
+
+#conteneur_vignette_populaire
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.vignettepopulaire 
+{
+    display: flex;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px; 
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.image_vignette_populaire
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
 }
 
 @media (max-width :768px)
