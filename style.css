@@ -108,10 +108,53 @@ h2
     margin: 0em auto 0;
 }
 
+h3
+{
+    font-family: 'Raleway-ExtraBold';
+    font-size: 0.9em;
+}
+
+h4
+{
+    font-size: 0.8em;
+}
+
 ul {
     list-style-type: none;
     }
 
+#hebergements
+{
+    background-color:#e4e0e2;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.vignette 
+{
+    display: flex;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px; 
+    width: 20%;
+    padding: 5px;
+}
+.image_vignette
+{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+.etoilepleine
+{
+    width: 6%;
+    color: #0065FC;
+}
+
+.etoilevide
+{
+    width: 6%;
+    color: grey;
+}
 
 @media (max-width :768px)
 {
