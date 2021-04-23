@@ -109,13 +109,16 @@ font-family: 'Raleway-Regular';
 {
     display: flex;
     border: 2px solid #e4e0e2;
-    padding-right   : 1em;
     border-radius: 30px;
     align-items: center;
     margin-right: 2em;
     height: 2em;
 }
-
+.vignette_filtre a
+{
+    padding-left: 1em;
+    padding-right: 1em;
+}
 
 a
 {
