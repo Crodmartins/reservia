@@ -84,6 +84,39 @@ font-family: 'Raleway-Regular';
     padding: 7px 7px;
     text-align: center;
 }
+
+/*Style Filtres*/
+#filtres
+{
+    display: flex;
+    align-items: center;
+}
+.conteneur_filtre
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: ;
+    padding: 1em;
+}
+.conteneur_filtre i
+{
+    background-color: rgb(179, 212, 243);
+    border-radius: 30px;
+    color:#0065FC;
+    padding: 0.6em;
+}
+.vignette_filtre
+{
+    display: flex;
+    border: 2px solid #e4e0e2;
+    padding-right   : 1em;
+    border-radius: 30px;
+    align-items: center;
+    margin-right: 2em;
+    height: 2em;
+}
+
+
 a
 {
     text-decoration: none;
