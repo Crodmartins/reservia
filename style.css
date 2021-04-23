@@ -52,26 +52,28 @@ font-family: 'Raleway-Regular';
    padding-top: 1em;
 }
 
-#lieu
+
+
+/*Style Recherche*/
+.recherche_lieu
 {
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
-.icone_lieu
+
+.recherche_lieu i
 {
-    width: 15px;
-    height :15px;
+    background-color:#e4e0e2;
     border: solid 1px #e4e0e2;
-    padding: 10px 10px;
-    background-color: rgb(248, 240, 240);
+    padding: 8px 12px 8px 12px;
     border-radius: 10px 0px 0px 10px;
 }
 .localisation
 {
     border: solid 1px #e4e0e2;
     padding: 7px 7px;
-    font-size: 1.1em;    
+    font-size: 1em;    
 }
 .rechercher
 {
@@ -133,7 +135,7 @@ ul {
     width: 70%;
 }
 
-#contenu_vignette_hebergements 
+#conteneur_vignette_hebergements 
 {
     display: flex;
     flex-direction: row;

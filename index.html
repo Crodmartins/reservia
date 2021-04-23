@@ -4,12 +4,13 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css" />
     <p><img src="images/logo/Reservia.svg" class="logo" alt="Logo"/></p>
+    <script src="https://kit.fontawesome.com/94ea419123.js" crossorigin="anonymous"></script>
     <title>Reservia</title>
   </header>
  
   <nav> <!--menu du site-->
     <div id="menu">
-        <p><div class="sinscrire">S'inscrire</div></p>
+        <p><a href="#"><div class="sinscrire">S'inscrire</div></a></p>
         <p><div><a href="#activites" class="activites">Activités</a></div></p>
         <p><div><a href="#hebergements" class="hebergements">Hébergements </a></div></p>
     </div>
@@ -21,9 +22,9 @@
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <h2>En plein centre ville ou en pleine nature</h2>
     </br>
-            <div id="lieu"><!--insertion lieu-->
-                    <div><img src="images/map-marker.svg" class="icone_lieu" alt="lieu"></div>
-                    <form><div><input type="text" name="localisation" class="localisation" placeholder="Marseille, France"></div></form>
+            <div class="recherche_lieu"><!--insertion lieu-->
+                <span><i class="fas fa-map-marker-alt"></i></span>
+                    <div><input type="text" name="localisation" class="localisation" placeholder="Marseille, France"></div>
                     <div input type="submit" name="rechercher" class="rechercher" value="Rechercher">Rechercher</div>
             </div>
 
