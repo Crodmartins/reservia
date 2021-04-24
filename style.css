@@ -186,10 +186,6 @@ h4
     font-size: 0.8em;
 }
 
-ul {
-    list-style-type: none;
-    }
-
 /*Mise en forme hébergements*/
 #hebergements
 {
@@ -270,6 +266,27 @@ ul {
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
 }
+
+/*Style Footer*/
+#footer
+{ 
+    background-color: #F2F2F2;
+    display: flex;
+}
+
+.footer_boite
+{
+    margin: 10px 1px 20px 20px;
+    padding-right: 150px;
+}
+li
+{
+    list-style-type: none;
+    font-size: 0.8em;
+    font-weight: lighter;
+    line-height: 2em;
+}
+
 
 @media (max-width :768px)
 {
