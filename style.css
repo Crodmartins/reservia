@@ -120,6 +120,34 @@ font-family: 'Raleway-Regular';
     padding-right: 1em;
 }
 
+/*Style Info*/
+.info
+{
+    display: flex;
+    align-items: center;
+    margin: 1em 1em 1em 0;
+}
+
+.icone_info i
+{
+    border: 2px solid #e4e0e2;
+    border-radius: 30px;
+    width: 1em;
+    margin-right: 1em;
+}
+
+.icone_info .fas
+{
+    color: #0065FC;
+    text-align: center;
+}
+
+.icone_info p {
+    font-size: 0.8em;
+    font-weight: lighter;
+}
+
+
 a
 {
     text-decoration: none;
