@@ -64,14 +64,14 @@ font-family: 'Raleway-Regular';
 
 .recherche_lieu i
 {
-    background-color:#e4e0e2;
-    border: solid 1px #e4e0e2;
+    background-color:#F2F2F2;
+    border: solid 1px #F2F2F2;
     padding: 8px 12px 8px 12px;
     border-radius: 10px 0px 0px 10px;
 }
 .localisation
 {
-    border: solid 1px #e4e0e2;
+    border: solid 1px #F2F2F2;
     padding: 7px 7px;
     font-size: 1em;    
 }
@@ -100,7 +100,7 @@ font-family: 'Raleway-Regular';
 }
 .conteneur_filtre i
 {
-    background-color: rgb(179, 212, 243);
+    background-color: #DEEBFF;
     border-radius: 30px;
     color:#0065FC;
     padding: 0.6em;
@@ -108,7 +108,7 @@ font-family: 'Raleway-Regular';
 .vignette_filtre
 {
     display: flex;
-    border: 2px solid #e4e0e2;
+    border: 2px solid #F2F2F2;
     border-radius: 30px;
     align-items: center;
     margin-right: 2em;
@@ -130,7 +130,7 @@ font-family: 'Raleway-Regular';
 
 .icone_info i
 {
-    border: 2px solid #e4e0e2;
+    border: 2px solid #F2F2F2;
     border-radius: 30px;
     width: 1em;
     margin-right: 1em;
@@ -193,7 +193,7 @@ ul {
 /*Mise en forme hébergements*/
 #hebergements
 {
-    background-color:#e4e0e2;
+    background-color:#F2F2F2;
     border-radius: 10px;
     padding: 10px 10px 10px 10px;
     width: 70%;
@@ -238,7 +238,7 @@ ul {
 /*Mise en forme populaire*/
 #populaire
 {
-    background-color:#e4e0e2;
+    background-color:#F2F2F2;
     border-radius: 10px;
     padding: 10px 10px 10px 10px;
     width: 30%;
