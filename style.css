@@ -186,6 +186,11 @@ h4
 }
 
 /*Mise en forme hébergements*/
+#hebergements
+{
+    display: flex;
+}
+
 .hebergements_marseille
 {
     background-color:#F2F2F2;
@@ -241,17 +246,21 @@ h4
 
 
 /*Mise en forme populaire*/
+
 #populaire
 {
     background-color:#F2F2F2;
     border-radius: 10px;
     padding: 10px 10px 10px 10px;
-    margin-left: 10px;
     display: flex;
+    flex-wrap: wrap;
+    width: 30%;
 }
 .head_populaire
 {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .head_populaire h1
 {
@@ -272,16 +281,35 @@ h4
     width: 30%;
     padding: 5px;
     margin-bottom: 10px;
+    width: 90%;
 }
 
 .image_vignette_populaire
 {
-    display: flex;
     width: 100%;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
 }
 
+.vignettepopulaire p
+{
+    margin: 2px;
+    font-size: 0.8em;
+}
+.vignettepopulaire h3
+{
+    margin: 0px;
+    text-align: left;
+}
+.note i
+{
+    color: #0065FC;
+    font-size: 12px;
+}
+#star_grise
+{
+    color: #F2F2F2;
+}
 /*Style Footer*/
 #footer
 { 
