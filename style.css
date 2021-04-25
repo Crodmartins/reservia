@@ -125,7 +125,7 @@ font-family: 'Raleway-Regular';
 {
     display: flex;
     align-items: center;
-    margin: 1em 1em 1em 0;
+    margin: 0em 1em 1em 0;
 }
 
 .icone_info i
@@ -172,7 +172,6 @@ h2
 {
     font-size: 0.8em;
     font-weight: lighter;
-    margin: 0em auto 0;
 }
 
 h3
@@ -187,12 +186,16 @@ h4
 }
 
 /*Mise en forme hébergements*/
-#hebergements
+.hebergements_marseille
 {
     background-color:#F2F2F2;
     border-radius: 10px;
     padding: 10px 10px 10px 10px;
     width: 70%;
+}
+.hebergements_marseille h1
+{
+    margin: 10px 5px 10px 5px;
 }
 #conteneur_vignette_hebergements 
 {
@@ -216,7 +219,7 @@ h4
 }
 .vignettehebergement h3
 {
-    margin: 2px;
+    margin: 0px;
     text-align: left;
 }
 .image_vignette
@@ -231,6 +234,10 @@ h4
     color: #0065FC;
     font-size: 12px;
 }
+#star_grise
+{
+    color: #F2F2F2;
+}
 
 
 /*Mise en forme populaire*/
@@ -240,6 +247,7 @@ h4
     border-radius: 10px;
     padding: 10px 10px 10px 10px;
     margin-left: 10px;
+    display: flex;
 }
 .head_populaire
 {
@@ -285,6 +293,10 @@ h4
 {
     margin: 10px 1px 20px 20px;
     padding-right: 150px;
+}
+ul
+{
+    padding-left: 0px;
 }
 li
 {
