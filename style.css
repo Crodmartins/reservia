@@ -310,6 +310,19 @@ h4
 {
     color: #F2F2F2;
 }
+
+/*Mise en forme Activités*/
+#activites_marseille
+{
+    display: flex;
+}
+
+.conteneur_activites
+{
+    display: flex;
+    justify-content: space-around;
+}
+
 /*Style Footer*/
 #footer
 { 
