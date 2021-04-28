@@ -269,13 +269,13 @@ h4
 #conteneur_vignette_populaire
 {
     display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
 .vignettepopulaire 
 {
     display: flex;
+    flex-direction: row;
     background-color: white;
     border-radius: 15px 15px 15px 15px; 
     width: 30%;
@@ -312,15 +312,55 @@ h4
 }
 
 /*Mise en forme Activités*/
-#activites_marseille
+
+#conteneur_activites
 {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.conteneur_activites
+.vignette_activite
 {
     display: flex;
-    justify-content: space-around;
+    border-radius: 1rem;
+    overflow: hidden;
+    flex-direction: column;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px #F2F2F2;
+}
+
+.vignette_port {
+    display: flex;
+    border-radius: 1rem;
+    overflow: hidden;
+    flex-direction: column;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px #F2F2F2;
+    height: 400px;
+    width: 200px;
+}
+
+.vignette_pomegues{
+    display: flex;
+    border-radius: 1rem;
+    overflow: hidden;
+    flex-direction: column;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px #F2F2F2;
+    height: 200px;
+    width: 200px;
+}
+
+.contenu_activite
+{
+    flex: 1;
+}
+.contenu_activite img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 /*Style Footer*/
