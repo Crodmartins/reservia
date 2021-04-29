@@ -69,6 +69,9 @@ h4
     font-size: 0.8em;
     padding-bottom: 2em;
 }
+.bouton_menu {
+    display: flex;
+}
 .sinscrire
 {
    color:#0065FC;
@@ -539,11 +542,39 @@ li
     line-height: 2em;
 }
 
+/* Responsive design mobile*/
+@media all and (max-width :768px)
+{
+    #menu {
+        display: inline;
+    }
+    .bouton_menu {
+        width: 100%;
+        display: flex;
+    }
+    .hebergements {
+        display: flex;
+        border-bottom: 3px solid #F2F2F2;
+        border-top: none;
+        margin: 0px;
+        justify-content: center;
+        width: 50%;
+    }
+    .activites {
+        display: flex;
+        border-bottom: 3px solid #F2F2F2;
+        border-top: none;
+        margin: 0px;
+        justify-content: center;
+        width: 50%;
+    }
+    nav a:hover {
+            border-bottom: solid #0065FC;
+        }
+    }
+    .sinscrire {
+        display: flex;
+        justify-content: flex-end;
 
-@media (max-width :768px)
-{
-.sinscrire
-{
-    display: flex;
-    position :static;    
+    }
 }
