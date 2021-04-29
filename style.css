@@ -199,13 +199,14 @@ h4
 {
     background-color:#F2F2F2;
     border-radius: 10px;
-    padding: 10px 10px 10px 10px;
+    padding: 20px;
     width: 70%;
     margin-right: 20px;
 }
-.hebergements_marseille h1
-{
-    margin: 10px 5px 10px 5px;
+.hebergements_marseille h1, h3 {
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 #conteneur_vignette_hebergements 
 {
@@ -214,13 +215,14 @@ h4
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
 .vignettehebergement 
 {
     background-color: white;
     border-radius: 15px 15px 15px 15px; 
     width: 30%;
     padding: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .vignettehebergement p
 {
@@ -229,6 +231,7 @@ h4
 }
 .vignettehebergement h3
 {
+    padding-left: 2px;
     margin: 0px;
     text-align: left;
 }
@@ -239,6 +242,10 @@ h4
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
 }
+.note {
+    padding-left: 2px;
+}
+
 .note i
 {
     color: #0065FC;
@@ -256,7 +263,7 @@ h4
 {
     background-color:#F2F2F2;
     border-radius: 10px;
-    padding: 10px 10px 10px 10px;
+    padding: 20px;
     width: 30%;
 }
 .head_populaire
@@ -264,6 +271,8 @@ h4
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 .head_populaire h1
 {
@@ -281,8 +290,8 @@ h4
     border-radius: 20px;
     display: flex;
     background-color: white;
-    padding: 6px 58px 6px 6px;
-    max-width: 284px;
+    padding: 4px 30px 4px 4px;
+    max-width: 300px;
     max-height: 135px;
     margin-bottom: 29px;
 }
@@ -294,6 +303,7 @@ h4
 
 .contenu_populaire h3 {
     margin-bottom: 0px;
+    padding-left: 0px;
 }
 
 .contenu_populaire p
