@@ -405,9 +405,11 @@ h4
     display: flex;
     flex-wrap: wrap;
     margin: 0px;
+    margin-bottom:8px;
 }
 .fort_pomegues {
     max-height: 180px;
+    width: -moz-available;
 }
 .vignette2 .fort_pomegues img {
     max-height: 180px;
@@ -427,6 +429,7 @@ h4
 }
 .iles_prioul {
     max-height: 100px;
+    width: -moz-available;
 }
 .vignette2 .iles_prioul img {
     max-height: 100px;
