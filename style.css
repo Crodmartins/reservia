@@ -72,7 +72,7 @@ h4
 .sinscrire
 {
    color:#0065FC;
-   font-weight: bold;
+   font-family: 'Raleway-ExtraBold';
    display: flex;
    margin: 0em 3em;
    padding-top: 1em;  
@@ -105,14 +105,14 @@ h4
 {
     background-color:#F2F2F2;
     border: solid 1px #F2F2F2;
-    padding: 8px 12px 8px 12px;
+    padding: 7px 12px 7.5px 12px;
     border-radius: 10px 0px 0px 10px;
 }
 .localisation
 {
     border: solid 1px #F2F2F2;
     padding: 7px 7px;
-    font-size: 1em;    
+    font-size: 0.9em;    
 }
 .rechercher
 {
@@ -120,9 +120,14 @@ h4
     color: white;
     border: solid 1px #0065FC;
     border-radius: 0px 10px 10px 0px;
-    padding: 7px 7px;
+    padding: 7.5px;
     text-align: center;
 }
+::placeholder {
+    font-family: 'Raleway-ExtraBold';
+    color: black;
+}
+
 
 /*Style Filtres*/
 #filtres
@@ -155,8 +160,16 @@ h4
 }
 .vignette_filtre a
 {
-    padding-left: 1em;
     padding-right: 1em;
+   
+}
+.vignette_filtre h3 {
+    margin: 0px;
+}
+
+.titre_filtre h3 {
+    margin: 0px;
+    padding-left: 0;
 }
 
 /*Style Info*/
