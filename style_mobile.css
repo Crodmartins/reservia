@@ -1,0 +1,58 @@
+@media screen and (max-width :400px)
+{
+    #menu {
+        display: inline;
+    }
+    .bouton_menu {
+        width: 100%;
+        display: flex;
+    }
+    .hebergements {
+        display: flex;
+        border-bottom: 3px solid #F2F2F2;
+        border-top: none;
+        margin: 0px;
+        justify-content: center;
+        width: 50%;
+        padding-top: 5px;
+    }
+    .activites {
+        display: flex;
+        border-bottom: 3px solid #F2F2F2;
+        border-top: none;
+        margin: 0px;
+        justify-content: center;
+        width: 50%;
+        padding-top: 5px;
+    }
+    nav a:hover {
+        border-bottom: solid #0065FC;
+        }
+    }
+    .sinscrire {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .rechercher {
+        display: none;
+    }
+    .recherche_lieu {
+        padding-top: 10px;
+    }
+    .recherche_lieu i {
+        background-color: white;
+    }
+    #icone_loupe {
+        background-color: #0065fc;
+        color: #fff;
+        margin-left: -0.7em;
+        border-radius: 10px;
+        display: flex;
+        padding: 8px;
+    }
+    .titre_filtre {
+        display: flex;
+    }
+
+}

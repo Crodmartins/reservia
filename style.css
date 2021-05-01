@@ -58,6 +58,7 @@ h4
 .logo
 {
     float: left;
+    padding-bottom: 5px;
 }
 #menu
 {
@@ -104,12 +105,15 @@ h4
     justify-content: flex-start;
 }
 
-.recherche_lieu i
+#icone_lieu
 {
     background-color:#F2F2F2;
     border: solid 1px #F2F2F2;
     padding: 7px 12px 7.5px 12px;
     border-radius: 10px 0px 0px 10px;
+}
+#icone_loupe {
+    display: none ;
 }
 .localisation
 {
@@ -540,41 +544,4 @@ li
     font-size: 0.8em;
     font-weight: lighter;
     line-height: 2em;
-}
-
-/* Responsive design mobile*/
-@media all and (max-width :768px)
-{
-    #menu {
-        display: inline;
-    }
-    .bouton_menu {
-        width: 100%;
-        display: flex;
-    }
-    .hebergements {
-        display: flex;
-        border-bottom: 3px solid #F2F2F2;
-        border-top: none;
-        margin: 0px;
-        justify-content: center;
-        width: 50%;
-    }
-    .activites {
-        display: flex;
-        border-bottom: 3px solid #F2F2F2;
-        border-top: none;
-        margin: 0px;
-        justify-content: center;
-        width: 50%;
-    }
-    nav a:hover {
-            border-bottom: solid #0065FC;
-        }
-    }
-    .sinscrire {
-        display: flex;
-        justify-content: flex-end;
-
-    }
 }

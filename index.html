@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<html lang="fr">
-<meta charset="utf-8">
-<link rel="stylesheet" href="style.css" />
-<title>Reservia</title>
+<html lang="fr">   
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" media="screen and (max-width: 400px)" href="style_mobile.css" />
+        <title>Reservia</title>
+    </head>
 
 <body>
 <header>
@@ -21,15 +24,17 @@
     </div>
 
   
-    <section> <!--Filtres-->
+    <!--Filtres-->
+    <section> 
        <div id="contenu_filtre">
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <h2>En plein centre ville ou en pleine nature</h2>
 
             <div class="recherche_lieu"><!--insertion lieu-->
-                <span><i class="fas fa-map-marker-alt"></i></span>
-                    <div><input type="text" name="localisation" class="localisation" placeholder="Marseille, France"></div>
-                    <div><input type="submit" name="rechercher" class="rechercher" value="Rechercher"></div>
+                <span><i class="fas fa-map-marker-alt" id="icone_lieu"></i></span>
+                    <input type="text" name="localisation" class="localisation" placeholder="Marseille, France">
+                    <input type="submit" name="rechercher" class="rechercher" value="Rechercher">
+                    <a href="#"></a><i class="fas fa-search" id="icone_loupe"></i></a>
             </div>
 
             <div id="filtres">  
