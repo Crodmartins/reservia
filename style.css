@@ -322,7 +322,6 @@ h4
     max-height: 135px;
     margin-bottom: 29px;
     box-shadow: 5px 5px 10px lightgrey;
-    overflow: scroll;
 }
 .contenu_populaire {
     padding: 0px 0px 0px 5px;
@@ -534,6 +533,7 @@ h4
 { 
     background-color: #F2F2F2;
     display: flex;
+    width: 100%;
 }
 
 .footer_boite

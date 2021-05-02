@@ -85,6 +85,9 @@
         width: 100%;
         border-radius: 0%;
     }
+    .vignette_populaire {
+        overflow: auto;
+    }
     .vignette_populaire img {
         height: auto;
     }
@@ -105,6 +108,9 @@
     }
 
     /*Activites*/
+    #activites_marseille {
+        max-block-size: initial;
+    }
     .conteneur_activites {
         flex-wrap: nowrap;
         width: 100%;
@@ -133,5 +139,9 @@
     }
     .vignette4 {
         width: auto;
+    }
+    /*Bas de page*/
+    #footer {
+        flex-direction: column;
     }
 }
