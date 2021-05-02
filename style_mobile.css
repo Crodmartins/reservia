@@ -85,6 +85,9 @@
         width: 100%;
         border-radius: 0%;
     }
+    .vignette_populaire img {
+        height: auto;
+    }
     .hebergements_marseille {
         background-color: white;
         width: 100%;
@@ -110,5 +113,25 @@
     }
     .vignette1 figure {
         width: 100%;
+    }
+    .vignette1 {
+        width: auto;
+        max-height: 180px;
+    }
+    .vignette1 figure {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px;
+        margin-bottom:8px;
+    }
+    .vignette2 {
+        width: auto;
+    }
+    
+    .vignette3 {
+        width: auto;
+    }
+    .vignette4 {
+        width: auto;
     }
 }
