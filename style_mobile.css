@@ -1,4 +1,4 @@
-@media screen and (max-width: 700px)
+@media all and (max-width: 700px)
 {
     /*Navigation*/
     #menu {
@@ -35,6 +35,8 @@
     }
 
     /*Recherche*/
+@media all and (max-width: 700px)
+{
     .rechercher {
         display: none;
     }
@@ -52,8 +54,10 @@
         display: flex;
         padding: 8px;
     }
-
+}
     /*Filtres*/
+@media all and (max-width: 700px)
+{
     #filtres {
         flex-direction: column;
         display: block;
@@ -76,7 +80,11 @@
         margin-bottom: 15px;
         align-items: flex-start;
     }
-    /*Hebergements*/
+}
+
+/*Hebergements*/
+@media all and (max-width: 700px)
+{
     #hebergements {
         flex-wrap: wrap-reverse;
     }
@@ -86,6 +94,7 @@
     }
     .vignette_populaire {
         overflow: auto;
+        height: 135px;
     }
     .vignette_populaire img {
         height: auto;
@@ -106,8 +115,11 @@
     .contenu_hebergement img {
         height: 130px;
     }
+}
 
     /*Activites*/
+@media all and (max-width: 700px)
+{
     .conteneur_activites {
         flex-wrap: nowrap;
         width: 100%;
@@ -127,12 +139,29 @@
     }
     .vignette_port {
         width: 95%;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px lightgrey;
+        padding: 10px;
+        border-radius: 15px 15px 0px 0px;
     }
     .fort_pomegues {
         max-height: 100px;
     }
+}
+
     /*Bas de page*/
+@media all and (max-width: 700px)
+{
     #footer {
         flex-direction: column;
+        padding-top: 20px;
+    }
+    .footer_boite {
+        padding-right: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .footer_boite ul {
+        margin-top: 0px;
     }
 }
