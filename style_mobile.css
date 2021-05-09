@@ -23,11 +23,13 @@
         margin: 0px;
         justify-content: center;
         width: 50%;
-        padding-top: 5px;
     }
     nav a:hover {
         border-bottom: solid #0065FC;
         }
+    }
+    .bouton_menu :hover {
+        border-top:none;
     }
     .sinscrire {
         display: flex;
@@ -124,28 +126,30 @@
         flex-wrap: nowrap;
         width: 100%;
         height: 100%;
-        display: block;
-    }
-    .conteneur_activites figure {
-        height: 100px;
     }
     .conteneur_activites img 
      {
-        height: 150px;
-        object-fit: cover;
+        height: 140px;
+        width: 100%;
+        object-position: center;
     }
-    .conteneur_activites figcaption {
-        height: 50px;
+    .vignette1 {
+        width: auto;
     }
-    .vignette_port {
-        width: 95%;
-        border-radius: 15px;
-        box-shadow: 5px 5px 10px lightgrey;
-        padding: 10px;
-        border-radius: 15px 15px 0px 0px;
+    .vignette2 {
+        width: auto;
+    }
+    .vignette3 {
+        width: auto;
+    }
+    .vignette4 {
+        width: auto;
     }
     .fort_pomegues {
-        max-height: 100px;
+        max-height: 140px
+    }
+    .iles_prioul img {
+        height: 140px;
     }
 }
 
