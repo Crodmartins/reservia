@@ -1,29 +1,22 @@
-
-@font-face 
-{ /*Définition Police*/
+@font-face { /*Définition Police*/
     font-family: 'Raleway-Regular';
     src: url('Raleway-Regular.ttf'); format('ttf')
 }
-
-    @font-face 
-{
+@font-face {
     font-family: 'Raleway-ExtraBold';
     src: url('Raleway-ExtraBold.ttf'); format('ttf')
 }
-
-    
+ 
 body {
     font-family: 'Raleway-Regular';
 }
 
 /*style commun*/
-a
-{
+a {
     text-decoration: none;
     color: black;
 }
-a:hover
-{
+a:hover {
     color: #0065FC;
     font-weight: bold;
 }
@@ -82,12 +75,9 @@ h4
    margin: 0em 3em;
    padding-top: 1em;  
 }
-.sinscrire :hover {
-    border-top: solid #0065FC;
-}
 
-.bouton_menu :hover {
-    border-top: solid #0065FC;
+#menu a:hover {
+    border-top: 2px solid #0065FC;
 }
 .hebergements
 {
@@ -134,13 +124,14 @@ h4
     padding: 7px 7px;
     font-size: 0.9em;    
 }
-.rechercher {
+.submit {
     background-color: #0065FC;
     color: white;
     border: solid 1px #0065FC;
     border-radius: 0px 10px 10px 0px;
     padding: 7.5px;
-    text-align: center; 
+    text-align: center;
+    cursor: pointer; 
 }
 
 ::placeholder {
