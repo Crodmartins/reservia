@@ -31,6 +31,9 @@
     .bouton_menu :hover {
         border-top:none;
     }
+    #menu a:hover {
+        border-top: none;
+    }   
     .sinscrire {
         display: flex;
         justify-content: flex-end;
@@ -39,7 +42,7 @@
     /*Recherche*/
 @media all and (max-width: 700px)
 {
-    .rechercher {
+    .submit {
         display: none;
     }
     .recherche_lieu {
@@ -55,6 +58,7 @@
         border-radius: 10px;
         display: flex;
         padding: 8px;
+        cursor: pointer;
     }
 }
     /*Filtres*/
@@ -138,17 +142,29 @@
     }
     .vignette2 {
         width: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .vignette2 figcaption {
+        margin-bottom: 10px;
+    }
+    .vignette2 figure {
+        margin-bottom: 10px;
     }
     .vignette3 {
         width: auto;
     }
     .vignette4 {
         width: auto;
+        margin: 10px;
     }
     .fort_pomegues {
         max-height: 140px
     }
-    .iles_prioul img {
+    .iles_prioul {
+        max-height: 140px;
+    }
+    .vignette2 .iles_prioul img {
         height: 140px;
     }
 }
