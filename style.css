@@ -1,10 +1,10 @@
 @font-face { /*Définition Police*/
     font-family: 'Raleway-Regular';
-    src: url('Raleway-Regular.ttf'); format('ttf')
+    src: url('Raleway-Regular.ttf') format("TrueType");
 }
 @font-face {
     font-family: 'Raleway-ExtraBold';
-    src: url('Raleway-ExtraBold.ttf'); format('ttf')
+    src: url('Raleway-ExtraBold.ttf') format("TrueType");
 }
  
 body {
@@ -20,42 +20,32 @@ a:hover {
     color: #0065FC;
     font-weight: bold;
 }
-
-h1
-{
+h1 {
     font-size: 1.2em;
     font-family: 'Raleway-ExtraBold';
     display: flex;
-    padding: 1em auto 0;
+    padding: 1em 0;
     margin: 1em auto 0.3em;
 }
-
-h2
-{
+h2 {
     font-size: 0.8em;
     font-weight: lighter;
 }
-
-h3
-{
+h3 {
     font-family: 'Raleway-ExtraBold';
     font-size: 0.9em;
 }
-
-h4
-{
+h4 {
     font-size: 0.8em;
 }
 
 
 /*Style Header*/
-.logo
-{
+.logo {
     float: left;
     padding-bottom: 5px;
 }
-#menu
-{
+#menu {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
@@ -64,35 +54,30 @@ h4
     font-size: 0.8em;
     padding-bottom: 2em;
 }
+
 .bouton_menu {
     display: flex;
 }
-.sinscrire
-{
+.sinscrire {
    color:#0065FC;
    font-family: 'Raleway-ExtraBold';
    display: flex;
    margin: 0em 3em;
    padding-top: 1em;  
 }
-
-#menu a:hover {
-    border-top: 2px solid #0065FC;
-}
-.hebergements
-{
+nav a:hover {
+    border-top: 1px solid #0065FC;
+    }
+.hebergements {
    display: flex;
    margin: 0em 3em;
    padding-top: 1em;
 }
-
-.activites_marseille
-{
+.activites_marseille {
    display: flex;
    margin: 0em 3em;
    padding-top: 1em;
 }
-
 
 
 /*Style Recherche*/
@@ -150,7 +135,6 @@ h4
 {
     display: flex;
     flex-wrap: wrap;
-    align-items: ;
     padding: 1em;
 }
 .conteneur_filtre i
@@ -285,7 +269,9 @@ h4
 {
     color: #F2F2F2;
 }
-
+.note .gris {
+    color: #F2F2F2;
+ }
 
 /*Mise en forme populaire*/
 
@@ -296,7 +282,7 @@ h4
     padding: 20px;
     width: 30%;
 }
-.head_populaire
+.titre_populaire
 {
     display: flex;
     justify-content: space-between;
@@ -304,7 +290,7 @@ h4
     margin-top: 10px;
     margin-bottom: 15px;
 }
-.head_populaire h1
+.titre_populaire h1
 {
     margin: 0px 20px 0px 0px;
 }

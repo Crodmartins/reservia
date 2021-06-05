@@ -1,0 +1,111 @@
+@media all and (max-width: 1024px) and (min-width:700px)
+
+ /*Filtres*/
+ {
+     #filtres {
+         flex-direction: column;
+         display: block;
+     }
+     .titre_filtre {
+         text-align: left;
+         padding: 20px 10px 10px 3px;
+     }
+     .vignette_filtre {
+         margin-bottom: 5px;
+         margin-top: 5px;
+     }
+     .conteneur_filtre {
+         padding: 0px;
+     }
+
+/*Info*/ 
+    .conteneur_info {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        align-items: flex-start;
+    }
+/*Hebergements*/
+@media all and (max-width: 1024px)
+{
+    #hebergements {
+        flex-wrap: wrap-reverse;
+    }
+    .populaire {
+        width: 100%;
+        border-radius: 0%;
+    }
+    .vignette_populaire {
+        overflow: auto;
+        height: 135px;
+        max-width: 1024px;
+    }
+    .vignette_populaire img {
+        height: auto;
+    }
+    .hebergements_marseille {
+        background-color: white;
+        width: 100%;
+        margin-right: 0%;
+        padding: 10px;
+    }
+    #conteneur_vignette_hebergements {
+        flex-direction: column;
+        align-content: center;
+    }
+    .vignettehebergement {
+        width: 95%;
+    }
+    .contenu_hebergement img {
+        height: 130px;
+    }
+}
+
+    /*Activites*/
+@media all and (max-width: 1024px)
+{
+    .conteneur_activites {
+        flex-wrap: nowrap;
+        width: 100%;
+        height: 100%;
+    }
+    .conteneur_activites img 
+     {
+        height: 140px;
+        width: 100%;
+        object-position: center;
+    }
+    .vignette1 {
+        width: auto;
+    }
+    .vignette2 {
+        width: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .vignette2 figcaption {
+        margin-bottom: 10px;
+    }
+    .vignette2 figure {
+        margin-bottom: 10px;
+    }
+    .vignette3 {
+        width: auto;
+    }
+    .vignette4 {
+        width: auto;
+        margin: 10px;
+    }
+    .fort_pomegues {
+        max-height: 140px
+    }
+    .iles_prioul {
+        max-height: 140px;
+    }
+    .vignette2 .iles_prioul img {
+        height: 140px;
+    }
+}
+
+
+
+}
