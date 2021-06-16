@@ -1,6 +1,6 @@
-@media all and (max-width: 1024px) and (min-width:700px)
+@media all and (max-width: 991px) and (min-width:700px)
 
- /*Filtres*/
+/*Filtres*/
  {
      #filtres {
          flex-direction: column;
@@ -24,8 +24,9 @@
         margin-bottom: 15px;
         align-items: flex-start;
     }
+
 /*Hebergements*/
-@media all and (max-width: 1024px)
+@media all and (max-width: 991px) and (min-width:700px)
 {
     #hebergements {
         flex-wrap: wrap-reverse;
@@ -48,20 +49,10 @@
         margin-right: 0%;
         padding: 10px;
     }
-    #conteneur_vignette_hebergements {
-        flex-direction: column;
-        align-content: center;
-    }
-    .vignettehebergement {
-        width: 95%;
-    }
-    .contenu_hebergement img {
-        height: 130px;
-    }
 }
 
     /*Activites*/
-@media all and (max-width: 1024px)
+@media all and (max-width: 991px) and (min-width:700px)
 {
     .conteneur_activites {
         flex-wrap: nowrap;
@@ -107,5 +98,3 @@
 }
 
 
-
-}
