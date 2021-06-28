@@ -102,5 +102,11 @@
         margin: 10px;
     }
 }
-
-
+/*Footer*/
+  @media all and (max-width: 991px) and (min-width:700px)
+{
+    .footer_boite {
+        padding-right: 100px;
+        margin: auto;
+    }
+}
