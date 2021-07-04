@@ -1,6 +1,9 @@
 @media all and (max-width: 700px)
 {
-    /*Navigation*/
+    /*Header*/
+    header {
+        display: inline;
+    }
     #menu {
         display: inline;
     }
@@ -31,8 +34,8 @@
         border-top: none;
     }   
     .sinscrire {
-        display: flex;
         justify-content: flex-end;
+        padding-top: 0px;
     }
 
     /*Recherche*/
@@ -96,7 +99,7 @@
     }
     .vignette_populaire {
         overflow: visible;
-        max-height: 200px;
+        max-height: px;
     }
     .vignette_populaire img {
         height: auto;
