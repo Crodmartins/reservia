@@ -503,14 +503,7 @@ nav a:hover {
 footer { 
     background-color: #F2F2F2;
     display: flex;
-    width: 100%;
-    flex-direction: row;
-}
-
-.footer_boite
-{
-    margin: 20px 1px 20px 20px;
-    padding-right: 200px;
+    justify-content:space-evenly ;
 }
 .footer_boite h3 {
     padding-left: 0;
