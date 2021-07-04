@@ -11,34 +11,6 @@ body {
     font-family: 'Raleway-Regular';
 }
 
-/*style commun*/
-a {
-    text-decoration: none;
-    color: black;
-}
-a:hover {
-    color: #0065FC;
-    font-weight: bold;
-}
-h1 {
-    font-size: 1.2em;
-    font-family: 'Raleway-ExtraBold';
-    display: flex;
-    padding: 1em 0;
-    margin: 1em auto 0.3em;
-}
-h2 {
-    font-size: 0.8em;
-    font-weight: lighter;
-}
-h3 {
-    font-family: 'Raleway-ExtraBold';
-    font-size: 0.9em;
-}
-h4 {
-    font-size: 0.8em;
-}
-
 
 /*Style Header*/
 .logo {
@@ -54,9 +26,11 @@ h4 {
     font-size: 0.8em;
     padding-bottom: 2em;
 }
-
 .bouton_menu {
     display: flex;
+}
+.bouton_menu a:hover {
+    border-top: 1px solid #0065FC;
 }
 .sinscrire {
    color:#0065FC;
@@ -65,9 +39,6 @@ h4 {
    margin: 0em 3em;
    padding-top: 1em;  
 }
-nav a:hover {
-    border-top: 1px solid #0065FC;
-    }
 .hebergements {
    display: flex;
    margin: 0em 3em;
@@ -78,7 +49,6 @@ nav a:hover {
    margin: 0em 3em;
    padding-top: 1em;
 }
-
 
 /*Style Recherche*/
 .recherche_lieu
@@ -428,7 +398,9 @@ nav a:hover {
     margin-bottom: 25px;
     box-shadow: 1px 1px 15px rgb(111 111 111);
 }
-
+.iles_prioul {
+    display: flex;
+}
 .vignette2 .iles_prioul img {
     height: 100px;
     width: 100%;
@@ -536,4 +508,30 @@ li
     line-height: 2em;
 }
 
-
+/*style commun*/
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: #0065FC;
+    font-weight: bold;
+}
+h1 {
+    font-size: 1.2em;
+    font-family: 'Raleway-ExtraBold';
+    display: flex;
+    padding: 1em 0;
+    margin: 1em auto 0.3em;
+}
+h2 {
+    font-size: 0.8em;
+    font-weight: lighter;
+}
+h3 {
+    font-family: 'Raleway-ExtraBold';
+    font-size: 0.9em;
+}
+h4 {
+    font-size: 0.8em;
+}

@@ -1,4 +1,4 @@
-@media all and (max-width: 667px)
+@media all and (max-width: 700px)
 {
     /*Navigation*/
     #menu {
@@ -27,10 +27,6 @@
     nav a:hover {
         border-bottom: solid #0065FC;
         }
-    }
-    .bouton_menu :hover {
-        border-top:none;
-    }
     #menu a:hover {
         border-top: none;
     }   
@@ -99,8 +95,8 @@
         border-radius: 0%;
     }
     .vignette_populaire {
-        overflow: auto;
-        height: 135px;
+        overflow: visible;
+        max-height: 200px;
     }
     .vignette_populaire img {
         height: auto;
