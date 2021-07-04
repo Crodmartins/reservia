@@ -1,8 +1,14 @@
 @media all and (max-width: 700px)
 {
-    /*Header*/
+
+    body {
+        margin: 0px;
+    }
+
+/*Header*/
     header {
         display: inline;
+        margin-left: 10px;
     }
     #menu {
         display: inline;
@@ -38,9 +44,12 @@
         padding-top: 0px;
     }
 
+/*Section Filtres*/
+    #contenu_filtre {
+        margin-left: 10px;
+    }
+
     /*Recherche*/
-@media all and (max-width: 700px)
-{
     .submit {
         display: none;
     }
@@ -59,10 +68,8 @@
         padding: 8px;
         cursor: pointer;
     }
-}
+
     /*Filtres*/
-@media all and (max-width: 700px)
-{
     #filtres {
         flex-direction: column;
         display: block;
@@ -85,22 +92,16 @@
         margin-bottom: 15px;
         align-items: flex-start;
     }
-}
 
 /*Hebergements*/
-@media all and (max-width: 700px)
-{
     #hebergements {
         flex-wrap: wrap-reverse;
     }
     .populaire {
         width: 100%;
-        border-radius: 0%;
+        border-radius: 0px;
     }
-    .vignette_populaire {
-        overflow: visible;
-        max-height: px;
-    }
+
     .vignette_populaire img {
         height: auto;
     }
@@ -120,21 +121,21 @@
     .contenu_hebergement img {
         height: 130px;
     }
-}
 
-    /*Activites*/
-@media all and (max-width: 700px)
-{
+/*Activites*/
     .conteneur_activites {
-        flex-wrap: nowrap;
         width: 100%;
         height: 100%;
+    }
+    .conteneur_activites figure {
+        display: flex;
     }
     .conteneur_activites img 
      {
         height: 140px;
         width: 100%;
         object-position: center;
+        object-fit: cover;
     }
     .vignette1 {
         width: auto;
@@ -158,7 +159,8 @@
         margin: 10px;
     }
     .fort_pomegues {
-        max-height: 140px
+        max-height: 140px;
+        width: 100%;
     }
     .iles_prioul {
         max-height: 140px;
@@ -166,14 +168,11 @@
     .vignette2 .iles_prioul img {
         height: 140px;
     }
-}
 
-    /*Bas de page*/
-@media all and (max-width: 700px)
-{
-    #footer {
+/*Footer*/
+    footer {
         flex-direction: column;
-        padding-top: 20px;
+        padding :20px;
     }
     .footer_boite {
         padding-right: 0px;
@@ -183,4 +182,7 @@
     .footer_boite ul {
         margin-top: 0px;
     }
+
 }
+
+
