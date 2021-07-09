@@ -1,6 +1,19 @@
 @media all and (max-width: 991px) and (min-width:700px)
-/*Filtres*/
+
+
  {
+     body {
+         margin: 0%;
+     }
+     
+/*Header*/
+     header {
+         margin-left: 5px;
+     }
+/*Filtres*/
+     #contenu_filtre {
+         margin-left: 5px;
+     }
      #filtres {
          flex-direction: column;
          display: block;
@@ -95,11 +108,5 @@
         margin-bottom: none;
         width: 350px;
         margin-bottom: 0;
-    }
-}
-/*Footer*/
-    .footer_boite {
-        padding-right: 100px;
-        margin: auto;
     }
 }
