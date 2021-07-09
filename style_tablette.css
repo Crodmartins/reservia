@@ -51,51 +51,50 @@
 /*Activites*/
     .conteneur_activites {
         height: 100%;
-        flex-direction: row;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
     .conteneur_activites img 
      {
         height: 140px;
         width: 100%;
         object-position: center;
+        object-fit: cover;
     }
     .vignette1 {
-        width: 95%;
+        width: 98%;
     }
     .vignette1 figcaption {
         width: 100%;
     }
     .vignette2 {
         display: flex;
-        justify-content: center;
-        align-items: stretch;
-    }
-    .vignette2 figcaption {
-        margin-bottom: 10px;
+        width: 98%;
+        justify-content: space-between;
     }
     .vignette2 figure {
         width: 350px;
-    }
-    .vignette2 .iles_prioul {
-        margin-left: 10px;
+        margin-bottom: 0;
     }
     .vignette2 .iles_prioul img {
         height: 140px;
     }
+    
     .vignette3 {
-        width: 95%;
+        width: 98%;
     }
     .vignette4 {
         display: flex;
-        justify-content: center;
-        align-items: stretch;
+        width: 98%;
+        justify-content: space-between;
     }
     .vignette4 figcaption {
         margin-bottom: 10px;
     }
     .vignette4 figure {
-        margin: 10px;
+        margin-bottom: none;
+        width: 350px;
+        margin-bottom: 0;
     }
 }
 /*Footer*/
