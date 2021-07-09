@@ -25,8 +25,6 @@
     }
 
 /*Hebergements*/
-@media all and (max-width: 991px) and (min-width:700px)
-{
     #hebergements {
         flex-wrap: wrap-reverse;
     }
@@ -41,6 +39,7 @@
     }
     .vignette_populaire img {
         height: auto;
+        width: 50%;
     }
     .hebergements_marseille {
         background-color: white;
@@ -48,11 +47,8 @@
         margin-right: 0%;
         padding: 10px;
     }
-}
 
-    /*Activites*/
-@media all and (max-width: 991px) and (min-width:700px)
-{
+/*Activites*/
     .conteneur_activites {
         height: 100%;
         flex-direction: row;
@@ -103,8 +99,6 @@
     }
 }
 /*Footer*/
-  @media all and (max-width: 991px) and (min-width:700px)
-{
     .footer_boite {
         padding-right: 100px;
         margin: auto;
