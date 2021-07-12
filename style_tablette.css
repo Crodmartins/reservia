@@ -1,11 +1,6 @@
-@media all and (max-width: 991px) and (min-width:701px)
+@media all and (max-width: 1023px) and (min-width:701px)
 
-
- {
-     body {
-         margin: 0%;
-     }
-     
+ {     
 /*Header*/
      header {
          margin-left: 5px;
@@ -41,25 +36,37 @@
     #hebergements {
         flex-wrap: wrap-reverse;
     }
-    .populaire {
-        width: 100%;
-        border-radius: 0%;
-    }
-    .vignette_populaire {
-        overflow: auto;
-        height: 135px;
-        max-width: 1024px;
-    }
-    .vignette_populaire img {
-        height: auto;
-        width: 50%;
-    }
     .hebergements_marseille {
         background-color: white;
         width: 100%;
         margin-right: 0%;
         padding: 10px;
     }
+
+/*Les plus populaires*/
+    .populaire {
+        width: 100%;
+        border-radius: 0%;
+    }
+    .titre_populaire {
+        margin: 0px 30px 0px 30px;
+    }
+    #conteneur_vignette_populaire {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 30px 0px 30px;
+        width: 80%;
+    }
+    .vignette_populaire {
+        height: 135px;
+        max-width: 1024px;
+    }
+    .vignette_populaire img {
+        height: auto;
+        width: 50%;
+        object-position: 0% 70%;
+    }
+
 
 /*Activites*/
     .conteneur_activites {
