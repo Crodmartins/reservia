@@ -401,6 +401,7 @@ nav a:hover {
 
 .iles_prioul {
     display: flex;
+    width: inherit;
 }
 .vignette2 .iles_prioul img {
     height: 135px;
@@ -439,7 +440,8 @@ nav a:hover {
     object-position: top;
 }
 .notre_dame {
-   display: flex;;
+   display: flex;
+   width: inherit;
 }
 
 .vignette4 .longchamp img {
@@ -450,6 +452,7 @@ nav a:hover {
 }
 .longchamp {
     display: flex;
+    width: inherit;
 }
 
 
