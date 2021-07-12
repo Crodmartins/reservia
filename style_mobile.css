@@ -104,6 +104,7 @@
 
     .vignette_populaire img {
         height: auto;
+        width: 50%;
     }
     .hebergements_marseille {
         background-color: white;
