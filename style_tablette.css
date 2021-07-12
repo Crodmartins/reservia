@@ -76,7 +76,7 @@
     }
     .conteneur_activites img 
      {
-        height: 140px;
+        height: 200px;
         width: 100%;
         object-position: center;
         object-fit: cover;
@@ -97,7 +97,7 @@
         margin-bottom: 0;
     }
     .vignette2 .iles_prioul img {
-        height: 140px;
+        height: 200px;
     }
     .fort_pomegues {
         height: 0%;
@@ -119,6 +119,9 @@
         margin-bottom: 0;
     }
     .vignette4 .notre_dame img {
+        height: 200px;
+    }
+    .vignette4 .longchamp img {
         height: 200px;
     }
 }
