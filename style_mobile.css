@@ -110,20 +110,15 @@
     #hebergements {
         flex-wrap: wrap-reverse;
     }
-    .populaire {
-        width: 100%;
-        border-radius: 0px;
-    }
 
-    .vignette_populaire img {
-        height: auto;
-        width: 50%;
-    }
+/*Hebergements à Marseille*/
     .hebergements_marseille {
         background-color: white;
         width: 100%;
-        margin-right: 0%;
-        padding: 10px;
+        margin: 0;
+        display:flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
     }
     #conteneur_vignette_hebergements {
         flex-direction: column;
@@ -134,6 +129,16 @@
     }
     .contenu_hebergement img {
         height: 130px;
+    }
+
+/*Les plus populaires*/
+    .vignette_populaire img {
+    height: auto;
+    width: 50%;
+    }
+    .populaire {
+        width: 100%;
+        border-radius: 0px;
     }
 
 /*Activites*/
