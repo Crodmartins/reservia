@@ -357,6 +357,7 @@ nav a:hover {
 .conteneur_activites figure {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     margin: 0;
 }
 .conteneur_activites figcaption {
@@ -373,7 +374,7 @@ nav a:hover {
 }
 .vignette1 img {
     width: 100%;
-    height: 400px;
+    height: 500px;
     border-radius: 20px 20px 0 0px;
     object-fit: cover;
     object-position: 60% 80%;
@@ -389,9 +390,9 @@ nav a:hover {
 }
 .fort_pomegues {
     display: flex;
+    height: 300px;
 }
 .vignette2 .fort_pomegues img {
-    max-height: 200px;
     width: 100%;
     border-radius: 20px 20px 0 0px;
     object-fit: cover;
@@ -415,7 +416,7 @@ nav a:hover {
 }
 .vignette3 img {
     width: 100%;
-    height: 400px;
+    height: 500px;
     border-radius: 20px 20px 0 0px;
     object-fit: cover;
     object-position: 50% 70%;
@@ -431,7 +432,7 @@ nav a:hover {
     border-radius: 20px 20px 0 0px;
 }
 .vignette4 figure {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 .notre_dame {
    display: flex;
