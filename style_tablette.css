@@ -92,7 +92,9 @@
     .vignette2 .iles_prioul img {
         height: 140px;
     }
-    
+    .fort_pomegues {
+        height: 0%;
+    }
     .vignette3 {
         width: 98%;
     }
@@ -108,5 +110,8 @@
         margin-bottom: 0;
         width: 350px;
         margin-bottom: 0;
+    }
+    .vignette4 .notre_dame img {
+        height: 200px;
     }
 }
